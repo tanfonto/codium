@@ -1,0 +1,47 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+shift+f11",
+        "command": "workbench.action.toggleFullScreen",
+        "when": "!isIOS"
+    },
+    {
+        "key": "f11",
+        "command": "-workbench.action.toggleFullScreen",
+        "when": "!isIOS"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "-workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "alt+1",
+        "command": "-workbench.action.openEditorAtIndex1"
+    },
+    {
+        "key": "alt+1",
+        "command": "workbench.explorer.fileView.toggleVisibility"
+    },
+    {
+        "key": "meta+1",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "ctrl+0",
+        "command": "-workbench.action.focusSideBar"
+    },
+    {
+        "key": "alt+1",
+        "command": "workbench.action.focusSideBar"
+    },
+    {
+        "key": "alt+enter",
+        "command": "editor.action.autoFix",
+        "when": "editorTextFocus && !editorReadonly && supportedCodeAction =~ /(\\s|^)quickfix\\b/"
+    },
+    {
+        "key": "shift+alt+[IntlBackslash]",
+        "command": "-editor.action.autoFix",
+        "when": "editorTextFocus && !editorReadonly && supportedCodeAction =~ /(\\s|^)quickfix\\b/"
+    }
+]

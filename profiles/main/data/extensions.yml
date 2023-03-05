@@ -1,0 +1,68 @@
+disabled: []
+enabled:
+  - id: asvetliakov.vscode-neovim
+    uuid: caf8995c-5426-4bf7-9d01-f7968ebd49bb
+  - id: ChrisRu.vscode-nightsky
+    uuid: 2b5cfbb8-9715-4986-9d83-8da39f59835c
+  - id: cweijan.cweijan-personal-material-icon-theme
+    uuid: a04dd03c-4cce-418d-8672-f78eca1ae92e
+  - id: DaltonMenezes.aura-theme
+    uuid: a37a3289-9175-4409-968e-a73e43095912
+  - id: dbaeumer.vscode-eslint
+    uuid: 583b2b34-2c1e-4634-8c0b-0b82e283ea3a
+  - id: EditorConfig.EditorConfig
+    uuid: f60a60a6-95ba-42d4-b41c-3d24c1b89588
+  - id: emattiza.vscode-purty
+    uuid: 0c1c78f7-af0d-4b36-b5a4-74e724d55606
+  - id: emeraldwalk.RunOnSave
+    uuid: 65a449f8-c656-4725-a000-afd74758c7e6
+  - id: file-icons.file-icons
+    uuid: 43335a8d-5929-408b-874a-65f08362642c
+  - id: fileicons.file-icons
+    uuid: 2f1885f1-cc49-4c62-ae76-ba178959e1ad
+  - id: firsttris.vscode-jest-runner
+    uuid: 13cd6cd6-3da6-4eb8-8d81-b47e6e710e59
+  - id: grain-lang.vscode-grain
+    uuid: b95eb54f-dbaf-4bb5-a18c-8b56da8a0829
+  - id: GY.ayu-mirage-plus
+    uuid: null
+  - id: humao.rest-client
+    uuid: dda49fd5-1f3b-4d25-bf61-4fc41905ede5
+  - id: LaurentTreguier.vscode-simple-icons
+    uuid: 23d65a8c-fcd4-4897-86da-7fe55088e2c6
+  - id: luma.ocaml-platform-syntax
+    uuid: 0c4c388b-8810-4534-93b3-13a745eee4be
+  - id: markwylde.vscode-filesize
+    uuid: 1d69cdfb-f927-423d-9921-5b3af8dff73e
+  - id: miguelsolorio.fluent-icons
+    uuid: 41aac8eb-b4f4-408d-9708-320d033a17f8
+  - id: naumovs.color-highlight
+    uuid: 121396ad-85a1-45ec-9fd1-d95028a847f5
+  - id: nwolverson.ide-purescript
+    uuid: 79de3bbd-069f-4597-b52e-10b0980ec373
+  - id: nwolverson.language-purescript
+    uuid: b9d2dfd7-af7e-4d90-a696-db33ef5e77ee
+  - id: ocamllabs.ocaml-platform
+    uuid: e3d4a4c9-859a-4367-9080-50dccbd4f1da
+  - id: phisch.phocus-vscode
+    uuid: c8d8c9a6-d045-4bdf-85f1-1b9492cf206b
+  - id: qcz.restart-ts-server-button
+    uuid: 85389bb8-b5dd-4f0c-b4ca-f1561fdcb0d9
+  - id: redhat.vscode-yaml
+    uuid: 2061917f-f76a-458a-8da9-f162de22b97e
+  - id: rust-lang.rust-analyzer
+    uuid: 06574cb4-e5dc-4631-8174-a543a4533621
+  - id: streetsidesoftware.code-spell-checker
+    uuid: f6dbd813-b0a0-42c1-90ea-10dde9d925a7
+  - id: syler.sass-indented
+    uuid: 466468c3-1861-4ad1-bf3e-f9ad46545ebb
+  - id: teabyii.ayu
+    uuid: 5178733e-4b02-4829-95c5-1ce970847c23
+  - id: uloco.theme-bluloco-dark
+    uuid: 13bc2ec0-b396-4d55-a0e3-45bec5917fc3
+  - id: vadimcn.vscode-lldb
+    uuid: bee31e34-a44b-4a76-9ec2-e9fd1439a0f6
+  - id: whizkydee.material-palenight-theme
+    uuid: 7f147721-ec06-4043-9e37-c9ffbecbccd1
+  - id: zokugun.cron-tasks
+    uuid: eb05256f-c7aa-4554-95c6-1bb8e30e0cea

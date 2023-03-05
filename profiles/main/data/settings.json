@@ -1,0 +1,68 @@
+{
+    "workbench.activityBar.visible": false,
+    "workbench.colorTheme": "Aura Soft Dark",
+    "vscode-neovim.neovimExecutablePaths.darwin": "/snap/bin",
+    "vscode-neovim.highlightGroups.highlights": {
+        "Directory": "vim",
+        "IncSearch": {
+            "backgroundColor": "theme.editor.findMatchBackground",
+            "borderColor": "theme.editor.findMatchBorder"
+        },
+        "Search": {
+            "backgroundColor": "theme.editor.findMatchHighlightBackground",
+            "borderColor": "theme.editor.findMatchHighlightBorder"
+        },
+        "Visual": {
+            "backgroundColor": "theme.editor.selectionBackground"
+        },
+        "Conceal": "vim",
+        "Substitute": "vim"
+    },
+    "editor.scrollbar.horizontalScrollbarSize": 2,
+    "editor.scrollbar.verticalScrollbarSize": 2,
+    "editor.scrollbar.horizontal": "hidden",
+    "vscode-neovim.logLevel": "debug",
+    "vscode-neovim.neovimExecutablePaths.linux": "/snap/bin/nvim",
+    "workbench.sideBar.location": "right",
+    "workbench.editor.showTabs": false,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.minimap.enabled": false,
+    "editor.rulers": [
+        100
+    ],
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "editor.lineDecorationsWidth": 250,
+    "zenMode.hideLineNumbers": false,
+    "zenMode.hideStatusBar": false,
+    "github.gitAuthentication": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.lineNumbers": "relative",
+    "workbench.editor.enablePreview": false,
+    "swift.path": "/home/ja/swift/bin",
+    "editor.formatOnSave": true,
+    "ocaml.sandbox": {
+        "kind": "opam",
+        "switch": "~/git/ocaml/helloworld"
+    },
+    "ocaml.trace.server": "verbose",
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "match": "\\.swift$",
+                "isAsync": true,
+                "cmd": "/home/ja/swift/SwiftFormat/.build/release/swiftformat ${file}"
+            },
+        ]
+    },
+    "[ocaml]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true
+    },
+    "sync.forceUpload": true,
+    "redhat.telemetry.enabled": false,
+    "window.zoomLevel": 1,
+    "vscode-neovim.mouseSelectionStartVisualMode": true
+}
