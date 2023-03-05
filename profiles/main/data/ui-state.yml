@@ -1,7 +1,7 @@
 cweijan.cweijan-personal-material-icon-theme: '{"material-icon-theme.version":"5.0.0"}'
 rust-lang.rust-analyzer: '{"serverVersion":"0.3.1418"}'
 vadimcn.vscode-lldb: '{"lastLaunchedVersion":"1.8.1"}'
-workbench.activity.pinnedViewlets2: '[{"id":"workbench.view.explorer","pinned":true,"visible":true,"order":0},{"id":"workbench.view.search","pinned":true,"visible":true,"order":1},{"id":"workbench.view.scm","pinned":true,"visible":true,"order":2},{"id":"workbench.view.debug","pinned":true,"visible":true,"order":3},{"id":"workbench.view.extensions","pinned":true,"visible":true,"order":4},{"id":"workbench.view.remote","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extension.test","pinned":true,"visible":false,"order":6},{"id":"workbench.view.extension.references-view","pinned":true,"visible":false,"order":7},{"id":"workbench.view.extension.cspell-explorer","pinned":true,"visible":false,"order":9},{"id":"workbench.view.extension.ocaml-explorer","pinned":true,"visible":true,"order":8},{"id":"workbench.view.editSessions","pinned":true,"visible":false},{"id":"userDataProfiles","pinned":true,"visible":true}]'
+workbench.activity.pinnedViewlets2: '[{"id":"workbench.view.explorer","pinned":true,"visible":true,"order":0},{"id":"workbench.view.search","pinned":true,"visible":true,"order":1},{"id":"workbench.view.scm","pinned":true,"visible":true,"order":2},{"id":"workbench.view.debug","pinned":true,"visible":true,"order":3},{"id":"workbench.view.extensions","pinned":true,"visible":true,"order":4},{"id":"workbench.view.remote","pinned":true,"visible":false,"order":4},{"id":"workbench.view.extension.test","pinned":true,"visible":false,"order":6},{"id":"workbench.view.extension.references-view","pinned":true,"visible":false,"order":7},{"id":"workbench.view.extension.cspell-explorer","pinned":true,"visible":false,"order":9},{"id":"workbench.view.extension.ocaml-explorer","pinned":true,"visible":true,"order":8},{"id":"workbench.view.extension.terraform","pinned":true,"visible":true,"order":10},{"id":"workbench.view.editSessions","pinned":true,"visible":false},{"id":"userDataProfiles","pinned":true,"visible":false}]'
 workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   \"themeIcon\":{\"id\":\"explorer-view-icon\"},\"name\":\"Explorer\",\"isBuilt\
   in\":true,\"views\":[{\"when\":\"openEditorsVisible\"},{},{},{\"when\":\"time\
@@ -60,15 +60,19 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   enableRegexpView\"}]},{\"id\":\"workbench.view.extension.ocaml-explorer\",\"i\
   conUrl\":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/ocamllabs.ocaml-platf\
   orm-1.12.2-universal/assets/logo.svg\",\"scheme\":\"file\"},\"name\":\"OCaml\
-  \",\"isBuiltin\":false,\"views\":[{},{},{},{}]},{\"id\":\"workbench.view.edit\
-  Sessions\",\"themeIcon\":{\"id\":\"edit-sessions-view-icon\"},\"name\":\"Cloud
+  \",\"isBuiltin\":false,\"views\":[{},{},{},{}]},{\"id\":\"workbench.view.exte\
+  nsion.terraform\",\"iconUrl\":{\"$mid\":1,\"path\":\"%%EXTENSION_DATA_PATH%%/\
+  hashicorp.terraform-2.25.4-linux-x64/assets/icons/terraform.svg\",\"scheme\":\
+  \"file\"},\"name\":\"HashiCorp
+  Terraform\",\"isBuiltin\":false,\"views\":[]},{\"id\":\"workbench.view.editSe\
+  ssions\",\"themeIcon\":{\"id\":\"edit-sessions-view-icon\"},\"name\":\"Cloud
   Changes\",\"isBuiltin\":true,\"views\":[{\"when\":\"editSessionsShowView\"}]}\
   ,{\"id\":\"userDataProfiles\",\"themeIcon\":{\"id\":\"defaultProfile-icon\"},\
   \"name\":\"Profiles\",\"isBuiltin\":true,\"views\":[]}]"
 workbench.activityBar.hidden: "true"
 workbench.auxiliarybar.size: "256"
 workbench.auxiliaryBar.size: "256"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["markdown",true],["ignore",true],["swift",true],["ocaml.interface",true],["ocaml.opam",true],["dune-project",true],["dune",true],["ocaml",true],["plaintext",true],["jsonc",true],["rust",true],["yaml",true]]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["markdown",true],["ignore",true],["swift",true],["ocaml.interface",true],["ocaml.opam",true],["dune-project",true],["dune",true],["jsonc",true],["yaml",true],["rust",true],["plaintext",true],["ocaml",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":true},{"id":"timeline","isHidden":true},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"npm","isHidden":true},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"packageDependencies","isHidden":false}]'
 workbench.grid.height: "750"
 workbench.grid.size: '{"height":768,"width":1024}'
@@ -94,6 +98,7 @@ workbench.view.debug.state.hidden: '[{"id":"workbench.debug.welcome","isHidden":
 workbench.view.extension.jupyter.state.hidden: '[{"id":"cell-tag","isHidden":false}]'
 workbench.view.extension.ocaml-explorer.state.hidden: '[{"id":"ocaml-sandbox","isHidden":false},{"id":"ocaml-switches","isHidden":false},{"id":"ocaml-commands","isHidden":false},{"id":"ocaml-help","isHidden":false}]'
 workbench.view.extension.references-view.state.hidden: '[{"id":"references-view.tree","isHidden":false}]'
+workbench.view.extension.terraform.state.hidden: '[{"id":"terraform.providers","isHidden":false},{"id":"terraform.modules","isHidden":false}]'
 workbench.view.extension.test.state.hidden: '[{"id":"workbench.view.testing","isHidden":false}]'
 workbench.view.extension.wallaby.state.hidden: '[{"id":"quokkaValueExplorer","isHidden":false}]'
 workbench.view.extensions.state.hidden: '[{"id":"workbench.views.extensions.installed","isHidden":false},{"id":"workbench.views.extensions.workspaceRecommendations","isHidden":false},{"id":"workbench.views.extensions.popular","isHidden":false},{"id":"workbench.views.extensions.otherRecommendations","isHidden":false},{"id":"extensions.recommendedList","isHidden":false},{"id":"workbench.views.extensions.enabled","isHidden":true},{"id":"workbench.views.extensions.disabled","isHidden":true},{"id":"workbench.views.extensions.marketplace","isHidden":false},{"id":"workbench.views.extensions.searchInstalled","isHidden":false},{"id":"workbench.views.extensions.searchEnabled","isHidden":false},{"id":"workbench.views.extensions.searchDisabled","isHidden":false},{"id":"workbench.views.extensions.searchOutdated","isHidden":false},{"id":"workbench.views.extensions.searchBuiltin","isHidden":false},{"id":"workbench.views.extensions.searchWorkspaceUnsupported","isHidden":false},{"id":"workbench.views.extensions.builtinFeatureExtensions","isHidden":false},{"id":"workbench.views.extensions.builtinThemeExtensions","isHidden":false},{"id":"workbench.views.extensions.builtinProgrammingLanguageExtensions","isHidden":false},{"id":"workbench.views.extensions.untrustedUnsupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.untrustedPartiallySupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.virtualUnsupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.virtualPartiallySupportedExtensions","isHidden":false},{"id":"workbench.views.extensions.deprecatedExtensions","isHidden":false},{"id":"workbench.views.extensions.searchRecentlyUpdated","isHidden":false}]'

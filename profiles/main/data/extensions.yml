@@ -16,6 +16,8 @@ enabled:
     uuid: 0c1c78f7-af0d-4b36-b5a4-74e724d55606
   - id: emeraldwalk.RunOnSave
     uuid: 65a449f8-c656-4725-a000-afd74758c7e6
+  - id: esbenp.prettier-vscode
+    uuid: 96fa4707-6983-4489-b7c5-d5ffdfdcce90
   - id: file-icons.file-icons
     uuid: 43335a8d-5929-408b-874a-65f08362642c
   - id: fileicons.file-icons
@@ -26,6 +28,8 @@ enabled:
     uuid: b95eb54f-dbaf-4bb5-a18c-8b56da8a0829
   - id: GY.ayu-mirage-plus
     uuid: null
+  - id: hashicorp.terraform
+    uuid: 4a23294b-fd16-4c51-9759-da9936474cf8
   - id: humao.rest-client
     uuid: dda49fd5-1f3b-4d25-bf61-4fc41905ede5
   - id: LaurentTreguier.vscode-simple-icons
@@ -64,5 +68,7 @@ enabled:
     uuid: bee31e34-a44b-4a76-9ec2-e9fd1439a0f6
   - id: whizkydee.material-palenight-theme
     uuid: 7f147721-ec06-4043-9e37-c9ffbecbccd1
+  - id: yzhang.markdown-all-in-one
+    uuid: 98790d67-10fa-497c-9113-f6c7489207b2
   - id: zokugun.cron-tasks
     uuid: eb05256f-c7aa-4554-95c6-1bb8e30e0cea
